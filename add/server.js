@@ -4,6 +4,7 @@ http.createServer(function(req, res){
 var opts = {
   host: 'www.google.com',
   path: '/',
+  
 };
 http.request(opts, function(response){
 response.on('data', function(chunk){});
