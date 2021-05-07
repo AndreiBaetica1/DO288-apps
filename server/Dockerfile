@@ -1,11 +1,9 @@
 FROM  node:14
 
 MAINTAINER   Andrei
-
-ENV	  JAVA_OPTIONS -Xmx512m
-ADD   https://github.com/AndreiBaetica1/DO288-apps/server
-
-COPY  /server
+RUN mkdir Test
+WORKDIR Test
+COPY  server2.js /test/server2.js
 
 CMD [ "server2.js" ]
 EXPOSE 8080
