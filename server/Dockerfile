@@ -1,6 +1,6 @@
-FROM   registry.access.redhat.com/ubi8/ubi:8.0
+FROM  node:14
 
-MAINTAINER   Red hat
+MAINTAINER   Andrei
 
 ENV	  JAVA_OPTIONS -Xmx512m
 ADD   https://github.com/AndreiBaetica1/DO288-apps/server
