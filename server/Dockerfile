@@ -1,6 +1,6 @@
 FROM  node:14
 
-WORKDIR /Server
+WORKDIR /server
 
 RUN npm install express
 
