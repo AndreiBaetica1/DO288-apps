@@ -1,6 +1,9 @@
 FROM  node:14
 
-WORKDIR /server
+RUN mkdir test
+WORKDIR /test
+
+COPY  server2.js /test/server2.js
 
 RUN npm install express
 
