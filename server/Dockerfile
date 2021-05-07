@@ -7,6 +7,6 @@ COPY  server2.js /test/server2.js
 
 RUN npm install express
 
-CMD ["node", "server2.js" ]
+CMD ["node", "server2.js"]
 
 EXPOSE 8080
