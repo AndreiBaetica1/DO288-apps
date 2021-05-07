@@ -2,9 +2,6 @@ FROM node:12.18.1
  
 WORKDIR /server
 
-COPY package*.json ./
-
-RUN npm install
-CMD [ "node", "server.js" ]
+CMD [ "server2.js" ]
 
 EXPOSE 3000
