@@ -8,4 +8,4 @@ COPY server2.js /test/server2.js
 RUN npm install express
 
 CMD ["node", "server2.js"]
-EXPOSE 8080
+EXPOSE 3000
