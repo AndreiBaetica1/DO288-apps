@@ -17,7 +17,6 @@
 --
 -- Table structure for table `test2`
 --
-CREATE DATABASE database1;
 USE database1;
 DROP TABLE IF EXISTS `test2`;
 /*!40101 SET @saved_cs_client    = @@character_set_client */;
