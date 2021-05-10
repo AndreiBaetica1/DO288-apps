@@ -17,6 +17,8 @@
 --
 -- Table structure for table `test2`
 --
+CREATE DATABASE database1;
+USE database1;
 DROP TABLE IF EXISTS `test2`;
 /*!40101 SET @saved_cs_client    = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
@@ -42,8 +44,3 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 -- Dump completed on 2020-02-11 4:21:33
-Expose the node app service and check if you cann see your mysql table from there.
-Hint:
-You will need your mysql database inside the mysql container
-You will have to run the following command to import your database: mysql -u <user> -p < <database_name>
-server.js file is incomplete. Make sure to complete it with your environment variables (host, user, password, database)
