@@ -11,4 +11,6 @@ ENV MYSQL_USER "andrei"
 ENV MYSQL_PASSWORD "Password"
 ENV MYSQL_DATABASE "database1"
 
+EXPOSE 3000
+
 
