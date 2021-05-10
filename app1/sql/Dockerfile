@@ -2,7 +2,7 @@ FROM mysql
 
 WORKDIR sql
 
-COPY ..
+COPY test.sql ..
 
 
 ENV MYSQL_HOST "localhost"
