@@ -1,9 +1,8 @@
 FROM mysql
 
-RUN mkdir test
-WORKDIR /test
+WORKDIR sql
 
-COPY  test.sql /test/test.sql
+COPY ..
 
 
 ENV MYSQL_HOST "localhost"
