@@ -11,4 +11,4 @@ ENV MYSQL_PASSWORD "Password"
 ENV MYSQL_DATABASE "database1"
 
 CMD ["test.sql"] 
-RUN mysql -u ${MYSQL_USER} -p < ${MYSQL_DATABASE}
+
